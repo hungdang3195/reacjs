@@ -1,8 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.svg'
 import './App.css';
 
 function App() {
+  let test = 0
+  while (test < 10) {
+    test = test + 1
+  }
+  console.log("test")
   return (
     <div className="App">
       <header className="App-header">

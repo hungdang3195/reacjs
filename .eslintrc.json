@@ -1,0 +1,24 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "plugin:shopify/esnext"
+    ],
+    "plugins": [
+        "@typescript-eslint",
+        "no-loops"
+    ],
+    "rules": {
+        "quotes": [
+            2,
+            "single"
+        ],
+        "react/jsx-uses-react": 2,
+        "no-console": 2,
+        "no-loops/no-loops": 2
+    }
+}
